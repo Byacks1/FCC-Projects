@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>
+      Tech Doc
+    </title>
+    <script src="https://kit.fontawesome.com/b2f6c234ec.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="technicalDoc.css" type="text/css">
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <nav id="navbar">
+      <header>
+        <i class="far fa-file-alt"></i> HTML Documentation
+      </header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Getting_Started">
+            Getting Started
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Introduction_to_HTML">
+            Introduction to HTML
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Multimedia_and_embedding">
+            Multimedia and embedding
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#HTML_tables">
+            HTML tables
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#HTML_forms">
+            HTML forms
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- MAIN -->
+    <main id="main-doc">
+      <section id="Getting_Started" class="main-section">
+        <header>
+          <h3>
+            Getting Started
+          </h3>
+        </header>
+        <article>
+          <p>
+            It's a lot of work to create a professional website, so if you're new to web development, we encourage you to start small. You won't build another Facebook right away, but it's not hard to get your own simple website online, so we'll start there. By working through the articles listed below in order, you will go from nothing to getting your first webpage online. When it comes to tools for building a website, there's a lot to pick from. If you're just starting out, you might be confused by the array of code editors, frameworks, and testing tools out there. In Installing basic software, we show you step-by-step how to install just the software you need to begin some basic web development.
+          </p>
+          <p>
+            Before you start writing the code for your website, you should plan it first. What information are you showcasing? What fonts and colors are you using? What will your website look like? We outline a simple method you can follow to plan out your site's content and design. A website consists of many files: text content, code, stylesheets, media content, and so on. When you're building a website, you need to assemble these files into a sensible structure and make sure they can talk to one another. Dealing with files explains how to set up a sensible file structure for your website and what issues you should be aware of.
+          </p>
+        </article>
+      </section>
+      <h3 class="text-center">
+        <i class="fas fa-desktop"></i>
+      </h3>
+      <hr>
+      <section id="Introduction_to_HTML" class="main-section">
+        <header>
+          <h3>
+            Introduction to HTML
+          </h3>
+        </header>
+        <article>
+          <p>
+            HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript). "Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
+          </p>
+          <p>
+            HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as
+            <ul>
+              <li>
+                <code>&lt;head></code>
+              </li>
+              <li>
+                <code>&lt;title></code>
+              </li>
+              <li>
+                <code>&lt;body></code>
+              </li>
+              <li>
+                <code>&lt;header></code>
+              </li>
+              <li>
+                <code>&lt;footer></code>
+              </li>
+              <li>
+                <code>&lt;video></code>
+              </li>
+            </ul>
+            and many others. An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded by "&lt;" and ">" . The name of an element inside a tag is case insensitive. That is, it can be written in uppercase, lowercase, or a mixture. For example, the &lt;title> tag can be written as &lt;Title>, &lt;TITLE>, or in any other way.
+          </p>
+        </article>
+      </section>
+      <div class="text-center">
+        <h3>
+          <i class="fas fa-ethernet"></i>
+        </h3>
+      </div>
+      <hr>
+      <section id="Multimedia_and_embedding" class="main-section">
+        <header>
+          <h3>
+            Multimedia and embedding
+          </h3>
+        </header>
+        <article>
+          <p>
+            There are other types of multimedia to consider, but it is logical to start with the humble &lt;img> element used to embed a simple image in a webpage. In this article we'll look at how to use it in more depth, including basics, annotating it with captions using &lt;figure>, and how it relates to CSS background images. Next, we'll look at how to use the HTML5 &lt;video> and &lt;audio> elements to embed video and audio on our pages, including basics, providing access to different file formats to different browsers, adding captions and subtitles, and how to add fallbacks for older browsers.
+          </p>
+          <p>
+            With so many different device types now able to browse the web — from mobile phones to desktop computers — an essential concept to master in the modern web world is responsive design. This refers to the creation of webpages that can automatically change their features to suit different screen sizes, resolutions, etc. This will be looked at in much more detail in a CSS module later on, but for now, we'll look at the tools HTML has available to create responsive images, including the &lt;picture> element.
+          </p>
+        </article>
+      </section>
+      <div class="text-center">
+        <h3>
+          <i class="far fa-keyboard"></i>
+        </h3>
+      </div>
+      <hr>
+      <section id="HTML_tables" class="main-section">
+        <header>
+          <h3>
+            HTML tables
+          </h3>
+        </header>
+        <article>
+          <p>
+            A table is a structured set of data made up of of rows and columns (tabular data). A table allows you to quickly and easily look up values that indicate some kind of connection between different types of data, for example a person and their age, or a day or the week, or the timetable for a local swimming pool. The point of a table is that it is rigid. Information is easily interpreted by making visual associations between row and column headers. Look at the table below for example and find a Jovian gas giant with 62 moons. You can find the answer by associating the relevant row and column headers.
+          </p>
+          <p>
+            HTML tables should be used for tabular data — this is what they are designed for. Unfortunately, a lot of people used to use HTML tables to lay out web pages, e.g. one row to contain the header, one row to contain the content columns, one row to contain the footer, etc. You can find more details and an example at Page Layouts in our Accessibility Learning Module. This was commonly used because CSS support across browsers used to be terrible; table layouts are much less common nowadays, but you might still see them in some corners of the web.
+          </p>
+        </article>
+      </section>
+      <h3 class="text-center"><i class="fas fa-table"></i></h3>
+      <hr>
+      <section id="HTML_forms" class="main-section">
+        <header>
+          <h3>
+            HTML forms
+          </h3>
+        </header>
+        <article>
+          <p>
+            HTML Forms are one of the main points of interaction between a user and a web site or application. They allow users to send data to the web site. Most of the time that data is sent to the web server, but the web page can also intercept it to use it on its own. An HTML Form is made of one or more widgets. Those widgets can be text fields (single line or multiline), select boxes, buttons, checkboxes, or radio buttons. Most of the time those widgets are paired with a label that describes their purpose — properly implemented labels are able to clearly instruct both sighted and blind users on what to enter into a form input. The main difference between a HTML form and a regular HTML document is that most of the time, the data collected by the form is sent to a web server. In that case, you need to set up a web server to receive and process the data. How to set up such a server is beyond the scope of this article, but if you want to know more, see Sending form data later in the module.
+          </p>
+          <p>
+            Before starting to code, it's always better to step back and take the time to think about your form. Designing a quick mockup will help you to define the right set of data you want to ask your user. From a user experience (UX) point of view, it's important to remember that the bigger your form, the more you risk losing users. Keep it simple and stay focused: ask only for that data you absolutely need. Our form will contain three text fields and one button. We are asking the user for their name, their e-mail and the message they want to send. Hitting the button will send their data to a web server.
+          </p>
+        </article>
+      </section>
+      <h3 class="text-center"><i class="fas fa-book-open"></i></h3>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
+  </body>
+
+</html>
